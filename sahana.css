@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+html{
+    scroll-behavior:smooth;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.header-first-text-social{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+.header-text{
+    display: inline;
+    padding: 0 10px;
+}
+.header-text i{
+    padding-right: 5px;
+}
+.header-text a{
+    color: #fff;
+}
+.header-social-links a {
+    color: #fff;
+}
+.header-social-links a i::after{
+    content: "/";
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-social-links a i.fa.fa-instagram::after {
+    content: "";
+}
+.main-header{
+    position: absolute;
+    z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.header-contact{
+    color: #fff;
+    padding-left: 83px;
+}
+.header-contact span a{
+   display: block;
+   color: lawngreen;
+}
+.header-contact span p{
+   display: block;
+   color: lawngreen;
+}
+.header-contact span {
+    padding: 0 20px;
+}
+.header-contact i {
+    margin-top: 11px;
+    font-size: 25px;
+}
+.header-contact .header-button a{
+    color: #fff;
+    background-color: blue;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+.header-list .navbar-nav .nav-item{
+    padding: 0 8px;
+}
+.header-list .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-weight: 500;
+}
+.site-logo{
+    padding-top: 24px;
+}
+.carousel-section{
+    padding: 0px;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.carousel-caption h2{
+    color: #fff;
+}
+.carousel-caption .learn-more{
+    color: #fff;
+    background-color: rgb(28, 113, 165);
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.carousel-caption .our-services{
+    color: rgb(28, 113, 165);
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 2px solid rgb(28, 113, 165);
+    font-weight: 500;
+}
+.carousel-caption p{
+    margin: 50px auto;
+}
+.carousel-caption a{
+    margin: 0px auto 60px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.carousel.slide .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #fff;
+    opacity: 2;
+}
+.carousel.slide .carousel-indicators .active{
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+}
+.section-1{
+    margin: 100px 0 30px;
+}
+.section-1-img-text{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.section-1-img{
+   margin: 0 auto;
+    position: relative;
+    width: 107px;
+    height: 70px;
+}
+.section-1-img img{
+position: relative;
+top: -48px;
+}
+.section-1-img-text p {
+    padding: 20px 17px 30px;
+}
+.section-2-text-img{
+    background-color: #f4f4f4;
+    margin: 30px auto;
+}
+.section-2-text-img .section-2-img{
+    padding-right: 0px;
+}
+.section-2-text a{
+    padding: 10px 20px;
+    background-color: rgb(28, 113, 165);
+    color: #fff;
+}
+.section-2-text p{
+    padding: 20px 0 30px;
+}
+.section-2-text{
+    padding-left: 40px;
+}
+.section-2-text h3::after {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: aqua;
+    display: block;
+    margin: 10px 0;
+}
+.service-btn{
+    padding: 10px 5px;
+    background-color: rgb(28, 113, 165);
+    color: #fff;
+}
+.service-btn:hover{
+    padding: 10px 5px;
+    background-color: rgb(28, 113, 165);
+    color: #fff;
+}
+.modal-body{
+    padding: 30px 10px;
+}
+.modal-body-input{
+    padding: 10px 20px;
+    width: 80%;
+    border-radius: 25px;
+}
+.counter-section{
+    background-color: skyblue;
+    padding: 30px 0;
+    margin: 30px auto;
+}
+.counter-icon-text{
+    text-align: center;
+    color: #fff;
+}
+.counter-icon-text i{
+    font-size: 25px;
+}
+.tooltip .tooltip-inner {
+    background-color: cadetblue;
+    color: darkred;
+}
+.bs-tooltip-top .arrow::before{
+    border-top-color: rgb(140, 65, 224);
+}
+.mask1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: linear-gradient(rgb(129, 182, 68), transparent);
+    mask-image: linear-gradient(to bottom, transparent 10%, black);
+  }
+  .mask2{
+    display: block;
+    -webkit-mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
+    mask-image: url(https://kryogenix.org/images/css-jagged-cors/css-jagged-utah.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
+    -webkit-mask-size: 80%;
+    mask-size: 80%;
+    -webkit-mask-position: center;
+    mask-position: center;
+  }
+
+
